@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header_text{
+text-align: center;
+padding: 30px;
+background-color: #FFFFFF;
+border-radius: 18px;
+max-width: 1100px;
+margin: 0 auto;
+box-shadow: 0 0 10px 3px #0000001f;
+}
+header{
+    background: url(img/leftBg.png) no-repeat left top, url(img/rightBg.png) no-repeat right top, url(img/leftBottomBg.png) no-repeat left bottom, url(img/rightBottomBg.png) no-repeat right bottom;
+    background-size: 300px;
+}
+.home_page{
+    padding: 16px 0;
+}
+.form_header{
+    text-align: center;
+}
+.form{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.form > div{ 
+    background-color: #FAF8F8;
+    padding: 50px 50px;
+    border-radius: 34px;
+    border: 1px solid #EFF0F6;
+}
+.form div input{
+    padding: 10px 20px;
+    border-radius: 46px;
+    border: 1px solid #EFF0F6;
+    background-color: #FFFFFF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.button a{
+    border: 1px solid;
+    padding: 15px 40px;
+    border-radius: 56px;
+    color: #EFF0F6;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 0 25px 0;
+    
+background: linear-gradient(180deg, rgba(158,150,242,1) 0%, rgba(236,49,240,1) 73%);
+cursor: pointer;
+}
+.form div select{
+    padding: 10px 20px;
+    border-radius: 46px;
+    border: 0;
+    outline: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+
+.check__in{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 65px;
+}
+textarea{
+    border: 0;
+    border-radius: 21px;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+
+}
